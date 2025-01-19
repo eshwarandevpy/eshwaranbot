@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: eshwaran Support
+    url: https://t.me/eshwaransupport
+    about: Direct chat on non-inquiries subjects.
+  - name: Documentation
+    url: https://eshwaran.tech/
+    about: Documentation for getting started with bot.

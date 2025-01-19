@@ -1,4 +1,1 @@
-pack build my-app \
---builder gcr.io/buildpacks/builder:v1 \
---env GOOGLE_ENTRYPOINT="gunicorn -p :8080 main:app" \
---env MY-LOCAL-ENV-VARIABLE [2]
+web: gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 main:app

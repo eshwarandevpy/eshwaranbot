@@ -6,6 +6,7 @@ pillow==10.2.0
 psutil
 pyrogram==2.0.106
 py-tgcalls==0.9.7
+python3-dev
 python-dotenv==1.0.1
 tgcrypto==1.2.5
 speedtest-cli==2.1.3

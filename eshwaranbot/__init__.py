@@ -7,7 +7,6 @@
 #
 # All rights reserved.
 
-
 from eshwaranbot.core.bot import eshwaranbot
 from eshwaranbot.core.dir import dirr
 from eshwaranbot.core.git import git

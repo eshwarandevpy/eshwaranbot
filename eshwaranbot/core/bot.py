@@ -16,7 +16,7 @@ import config
 from ..logging import LOGGER
 
 
-class DuskyBot(Client):
+class eshwaranbot(Client):
     def __init__(self):
         LOGGER(__name__).info(f"Starting Bot")
         super().__init__(

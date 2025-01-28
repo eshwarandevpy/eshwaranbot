@@ -17,7 +17,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from eshwaranbot import LOGGER, app, userbot
-from eshwaranbot.core.call import Dusky
+from eshwaranbot.core.call import eshwaranbot
 from eshwaranbot.plugins import ALL_MODULES
 from eshwaranbot.utils.database import get_banned_users, get_gbanned
 

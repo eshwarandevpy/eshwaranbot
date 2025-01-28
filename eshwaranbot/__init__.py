@@ -10,7 +10,7 @@
 from eshwaranbot.core.bot import eshwaranbot
 from eshwaranbot.core.dir import dirr
 from eshwaranbot.core.git import git
-from eshwaranbot.core.eshwaranuserbot import eshwaranuserbot
+from eshwaranbot.core.Userbot import Userbot
 from eshwaranbot.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
@@ -34,7 +34,7 @@ sudo()
 app = eshwaranbot()
 
 # Assistant Client
-eshwaranuserbot = eshwaranuserbot()
+Userbot = Userbot()
 
 from .platforms import *
 
